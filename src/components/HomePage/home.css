@@ -1,0 +1,87 @@
+.home-container{
+  width: 92vw;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.info-container{
+  position: absolute;
+  left: 0;
+  top: 5vw;
+  width: 35vw;
+  color: white;
+}
+
+.info-container div{
+  margin: 0.5vw 0;
+}
+
+.movie-category{
+  color: #7B7C7E;
+  font-size: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  font-weight: bold;
+}
+
+.movie-name{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.movie-name img{
+  width: 100%;
+  height: auto;
+}
+
+.movie-date-info{
+  font-size: 2vw;
+}
+
+.movie-description{
+  font-size: 2vw;
+}
+
+.movie-buttons{
+  font-weight: bold;
+  padding: 1vw 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  width: 12vw;
+  height: 4vw;
+  border: 0;
+  border-radius: 5vw;
+  font-size: 1.8vw;
+  margin-right: 2vw;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: black;
+  color: white;
+  border: 0.1vw solid white;
+}
+
+.more-info-btn{
+  color: white;
+  background: linear-gradient(to bottom right, #2426EC, #041675);
+  border: 0.1vw solid transparent;
+}
+
+.more-info-btn:hover{
+  background: linear-gradient(to bottom right, #041675, #2426EC);
+}
+
+.trending-now-title{
+  position: absolute;
+  bottom: 16vw;
+  left: 0;
+  color: white;
+  font-size: 2vw;
+}
+
